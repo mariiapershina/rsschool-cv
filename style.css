@@ -1,1 +1,135 @@
+html {
+   scroll-behavior: smooth;
+}
 
+* {
+   box-sizing: border-box;
+}
+
+body {
+   min-height: 100vh;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+   font-size: 14px;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+
+}
+
+.main-container {
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 10px;
+}
+
+.section {
+   width: 50%;
+}
+
+.myprojects {
+   text-decoration: none;
+   color: black;
+}
+
+.code-example {
+   min-height: 15px;
+   max-width: fit-content;
+}
+
+@media (max-width: 768px) {
+   .section {
+      width: 100%;
+   }
+}
+
+.header {
+   background-color: #3a5c3edc;
+   padding-top: 10px;
+}
+
+.profile-photo {
+   max-width: 300px;
+}
+
+.nav-list {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   list-style: none;
+}
+
+.nav-link {
+   padding: 0 20px;
+   line-height: 50px;
+   text-decoration: none;
+   transition: .3s;
+   color: azure;
+}
+
+.link {
+   text-decoration: none;
+   color: #225c2a;
+   transition: color 0.5s;
+}
+
+.main {
+   padding-left: 10px;
+   background-color: #ecf0ec;
+}
+
+.container2 {
+   max-width: 1440px;
+   margin: 0 auto;
+
+}
+
+.footer {
+   text-decoration: none;
+   padding-left: 20px;
+   background-color: rgb(247, 222, 227);
+   padding-bottom: 10px;
+   padding-right: 20px;
+}
+
+.linkpage {
+   color: black;
+   text-decoration: none;
+   justify-content: flex-end;
+   list-style: none;
+}
+
+.name {
+   padding-left: 10px;
+   letter-spacing: 2px;
+   font-size: larger;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.year {
+   font-size: 16px;
+   font-weight: lighter;
+   font-weight: bold;
+}
+
+.logo {
+   text-align: right;
+}
+
+.logotype {
+   width: 10%;
+   height: 10%;
+}
+
+.codepicture {
+   width: 65%;
+   height: 65%;
+}
